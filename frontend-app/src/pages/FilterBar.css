@@ -1,0 +1,34 @@
+.filter-bar {
+  text-align: center;
+  margin: 30px;
+}
+
+.filter-bar h1 {
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.filters select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.clear-filters-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-filters-btn:hover {
+  background-color: #0056b3;
+}

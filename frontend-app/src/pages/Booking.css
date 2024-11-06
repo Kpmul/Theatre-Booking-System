@@ -1,0 +1,140 @@
+.booking-page {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 10px 30px;
+  margin-top: -25px;
+}
+
+.booking-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+
+  .booking-details {
+    .booking-info {
+      color: #555;
+      text-align: center;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.booking-title,
+.show-info,
+.show-description {
+  text-align: center;
+}
+
+.ticket-options {
+  margin: 16px 0;
+}
+
+.quantity-selection {
+  width: 30%;
+}
+
+.ticket-price,
+.ticket-quantity {
+  margin-bottom: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #37bae5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.book-btn:hover {
+  background-color: #37bae5;
+}
+
+.date-selection,
+.price-selection,
+.quantity-selection {
+  margin: 16px 0;
+  label {
+    font-weight: 600;
+  }
+}
+
+.user-details label {
+  font-weight: 600;
+}
+
+.is-invalid {
+  border-color: #dc3545 !important;
+}
+
+.error-message {
+  color: #dc3545 !important;
+  font-size: 12.8px !important;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .booking-container {
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .booking-page {
+    justify-content: center;
+  }
+
+  .booking-container {
+    margin: 32px;
+    border-radius: 8px;
+  }
+}
